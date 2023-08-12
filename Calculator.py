@@ -44,7 +44,7 @@ clear = Button(frame_btn, text="C", fg="green", width=32, height=3, bd=0, bg="#e
 divide = Button(frame_btn, text="/", fg="green", width=10, height=3, bd=0, bg="#eee", cursor="hand2", command=lambda: click_button("/")).grid(row=0, column=3, padx=1, pady=1)
 
 # 2nd row of buttons
-clear = Button(frame_btn, text="7", fg="green", width=10, height=3, bd=0, bg="#fff", cursor="hand2", command=lambda: click_button(7)).grid(row=1, column=0, padx=1, pady=1)
+seven = Button(frame_btn, text="7", fg="green", width=10, height=3, bd=0, bg="#fff", cursor="hand2", command=lambda: click_button(7)).grid(row=1, column=0, padx=1, pady=1)
 eight = Button(frame_btn, text="8", fg="green", width=10, height=3, bd=0, bg="#fff", cursor="hand2", command=lambda: click_button(8)).grid(row=1, column=1, padx=1, pady=1)
 nine = Button(frame_btn, text="9", fg="green", width=10, height=3, bd=0, bg="#fff", cursor="hand2", command=lambda: click_button(9)).grid(row=1, column=2, padx=1, pady=1)
 multiply = Button(frame_btn, text="*", fg="green", width=10, height=3, bd=0, bg="#eee", cursor="hand2", command=lambda: click_button("*")).grid(row=1, column=3, padx=1, pady=1)
